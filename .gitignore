@@ -131,7 +131,7 @@ dmypy.json
 # input data and models
 input/
 outputs/*.pth
-
+outputs/Outputs.md
 
 # data files
 *.csv
