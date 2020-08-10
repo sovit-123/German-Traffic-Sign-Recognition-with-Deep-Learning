@@ -8,7 +8,19 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 
 
-***This project uses the PyTorch Deep Learning Framework.***
+## Dependencies and Frameworks
+
+* [PyTorch >= 1.4](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00008.png?raw=true).
+* [Albumentations](https://albumentations.ai/).
+* [Scikit-Learn](https://scikit-learn.org/stable/index.html).
+
+
+
+***Now, just to give an idea of what to results to expect from this project:***
+
+![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00008.png?raw=true)
+
+***In my opinion, this would have been pretty difficult for a human to tell what the sign is***.
 
 
 
@@ -42,6 +54,33 @@ This project is an implementation of recognition of traffic signs using deep lea
 * **The extra `../`  is because of how I arrange my vision datasets globally** **You can easily omit the first `../` So, for you, the path will become**:
   * `../input/path/to/files/and/images`
 * **That's it. You are good to go.**
+
+
+
+## Results
+
+| After 20 epochs | Accuracy | Loss   |
+| --------------- | -------- | ------ |
+| **Training**    | 99.63%   | 0.0001 |
+| **Validation**  | 98.72%   | 0.0002 |
+
+![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/accuracy.png?raw=true)
+
+![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/loss.png?raw=true)
+
+
+
+## Some Results on the Test Data
+
+![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00000.png?raw=true)
+
+![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00001.png?raw=true)
+
+![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00004.png?raw=true)
+
+![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00009.png?raw=true)
+
+
 
 
 
