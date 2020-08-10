@@ -8,6 +8,10 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 
 
+**Feel free to use, modify, distribute, and build upon the project in whatever way you feel it will be useful and better.**
+
+
+
 ## Dependencies and Frameworks
 
 * [PyTorch >= 1.4](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00008.png?raw=true).
