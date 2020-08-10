@@ -16,7 +16,7 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 
 
-***Now, just to give an idea of what to results to expect from this project:***
+***Now, just to give an idea of what to results expect from this project:***
 
 ![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00008.png?raw=true)
 
