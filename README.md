@@ -2,13 +2,38 @@
 
 
 
-## <u>About</u>
+## <u>About the Project</u>
 
 This project is an implementation of recognition of traffic signs using deep learning. We are using the [German Traffic Sign Recognition Benchmark dataset](http://benchmark.ini.rub.de/index.php?section=gtsrb&subsection=news) along with the Spatial Transformer Network that is proposed in [Deep neural network for traffic sign recognition systems: An analysis of spatial transformers and stochastic optimisation methods.](https://www.sciencedirect.com/science/article/pii/S0893608018300054?casa_token=afsB9kq_U2EAAAAA:DV_6RTfBv_uXzZ27SAHceBr4l5zjfvqzfNGm90WnUWZEOigpjX73pUPEDFlWre82oLrqhTN5-P-7).
 
 
 
 ***This project uses the PyTorch Deep Learning Framework.***
+
+
+
+## <u>Project Structure</u>
+
+* ***Note: The input folder in this repo will be empty. I have included all the sub-folders without any files so that you can easily set-up the project directory as I have. But you are free to setup your input data directory as you like it. You just have to change the paths in the python programs.***
+
+* The following is the structure that I have used.
+
+  ```
+  ├───input
+  │   └───german_traffic_sign
+  │       └───GTSRB
+  │           ├───Final_Test
+  │           │   └───Images
+  │           └───Final_Training
+  │               └───Images
+  ├───notebooks
+  │   └───...
+  ├───outputs
+  └───src
+      └───*.py files
+  ```
+
+  
 
 
 

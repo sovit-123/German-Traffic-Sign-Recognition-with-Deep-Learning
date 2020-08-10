@@ -71,5 +71,6 @@ for i in range(len(test_df)):
     plt.imshow(orig)
     plt.title(f"Prediction - {str(label)}\nGround Truth - {str(gt_label)}")
     plt.axis('off')
+    plt.savefig(f"../outputs/{filename.split('.')[0]}.png")
     plt.show()
     plt.close()
