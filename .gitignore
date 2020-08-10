@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 
 # input data and models
-input/
 outputs/*.pth
 outputs/Outputs.md
 

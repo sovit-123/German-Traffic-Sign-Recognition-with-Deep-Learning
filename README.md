@@ -16,6 +16,8 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 * ***Note: The input folder in this repo will be empty. I have included all the sub-folders without any files so that you can easily set-up the project directory as I have. But you are free to setup your input data directory as you like it. You just have to change the paths in the python programs.***
 
+* **LINK TO DOWNLOAD ALL THE TRAINING AND TEST DATA => https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/published-archive.html**
+
 * The following is the structure that I have used.
 
   ```
@@ -33,7 +35,13 @@ This project is an implementation of recognition of traffic signs using deep lea
       └───*.py files
   ```
 
-  
+### Important Not About the Paths in the Python Scripts
+
+* **In the python scripts, you may find that the paths to files and images may be in the following structure**:
+  * `../../input/path/to/files/and/images`
+* **The extra `../`  is because of how I arrange my vision datasets globally** **You can easily omit the first `../` So, for you, the path will become**:
+  * `../input/path/to/files/and/images`
+* **That's it. You are good to go.**
 
 
 
