@@ -10,9 +10,23 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 **Feel free to use, modify, distribute, and build upon the project in whatever way you feel it will be useful and better.**
 
+***[Download the trained weights file from here](https://drive.google.com/file/d/1srFZ95FDiRkRClyseotxkUExVUwIYjEk/view?usp=sharing)***.
 
 
-## Dependencies and Frameworks
+
+## <u>Contents</u>
+
+* **[Dependencies and Frameworks](#Dependencies-and-Frameworks).**
+* **[Project Structure](#Project-Structure).**
+  * **[Important Note About the Paths in the Python Scripts](#Important-Note-About-the-Paths-in-the-Python-Scripts).**
+* **[Steps to Train and Test](#Steps-to-Train-and-Test).**
+* **[Results](#Results).**
+* **[Some Results on the Test Data](#Some-Results-on-the-Test-Data).**
+* **[References](#References).**
+
+
+
+## <u>Dependencies and Frameworks</u>
 
 * [PyTorch >= 1.4](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00008.png?raw=true).
 * [Albumentations](https://albumentations.ai/).
@@ -24,7 +38,7 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 ![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00008.png?raw=true)
 
-***In my opinion, this would have been pretty difficult for a human to tell what the sign is***.
+***In my opinion, it would have been pretty difficult for a human to tell what the sign is***.
 
 
 
@@ -51,7 +65,7 @@ This project is an implementation of recognition of traffic signs using deep lea
       └───*.py files
   ```
 
-### Important Not About the Paths in the Python Scripts
+### Important Note About the Paths in the Python Scripts
 
 * **In the python scripts, you may find that the paths to files and images may be in the following structure**:
   * `../../input/path/to/files/and/images`
@@ -61,7 +75,21 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 
 
-## Results
+## <u>Steps to Train and Test</u>
+
+* **If you have the compute power and want to train your own network, then execute the files in the following order:**
+  * Execute `preprocess.py` just one.
+    * `python preprocess.py`
+  * Then execute `train.py`.
+    * `python train.py`
+* **Now, if you just want to test the network by loading the trained weights, then:**
+  * Download the weights from [**here**](https://drive.google.com/file/d/1srFZ95FDiRkRClyseotxkUExVUwIYjEk/view?usp=sharing).
+  * Then just execute `test.py`.
+    * `python test.py`
+
+
+
+## <u>Results</u>
 
 | After 20 epochs | Accuracy | Loss   |
 | --------------- | -------- | ------ |
@@ -74,7 +102,7 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 
 
-## Some Results on the Test Data
+## <u>Some Results on the Test Data</u>
 
 ![](https://github.com/sovit-123/German-Traffic-Sign-Recognition-with-Deep-Learning/blob/master/outputs/00000.png?raw=true)
 
