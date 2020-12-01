@@ -10,7 +10,7 @@ This project is an implementation of recognition of traffic signs using deep lea
 
 **Feel free to use, modify, distribute, and build upon the project in whatever way you feel it will be useful and better.**
 
-***[Download the trained weights file from here](https://drive.google.com/file/d/1srFZ95FDiRkRClyseotxkUExVUwIYjEk/view?usp=sharing)***.
+***[Download the trained weights file from here](https://drive.google.com/file/d/1W1E3_0VLqVj4ERh60uMA1WiNFUtxJ1Gy/view?usp=sharing)***.
 
 
 
